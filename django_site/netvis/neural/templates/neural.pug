@@ -1,0 +1,27 @@
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js")
+    style.
+      body {
+        background-color: #123;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .center {
+        align: text-center;
+      }
+      #myNet {
+        height: 800px;
+      }
+
+  body
+    .container
+      #myNet.center
+      button#trainBtn.center Train
+    script(src="/res/js/neural.js")
